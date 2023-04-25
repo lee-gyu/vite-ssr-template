@@ -1,0 +1,12 @@
+{
+    "extends": "@lee-gyu/config/tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "dist/",
+        "declaration": true,
+        "declarationMap": true
+    },
+    "include": [
+        "src/**/*.tsx"
+    ]
+}

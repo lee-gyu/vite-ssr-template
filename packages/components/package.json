@@ -2,9 +2,9 @@
     "name": "@lee-gyu/components",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "lib/esm/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "tsc:esm": "tsc --module=es2020 --target=es2020 --outDir=lib/esm"
     },
     "keywords": [],
     "author": "",
@@ -13,6 +13,7 @@
         "react": "^18.2.0"
     },
     "devDependencies": {
+        "@lee-gyu/config": "workspace:^",
         "@types/react": "^18.0.38",
         "typescript": "^5.0.4",
         "vite": "^4.3.1",
